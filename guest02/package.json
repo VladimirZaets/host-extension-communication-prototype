@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@adobe/uix-guest": "^0.10.5",
+    "@adobe/react-spectrum": "^3.39.0",
+    "@adobe/uix-guest-react": "file:.yalc/@adobe/uix-guest-react",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "@adobe/react-spectrum": "^3.4.0",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.12.13",
     "@types/react": "^18.3.3",
@@ -44,5 +44,6 @@
   },
   "devDependencies": {
     "typescript": "^4.0.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

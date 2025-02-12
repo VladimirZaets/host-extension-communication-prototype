@@ -1,12 +1,10 @@
 {
-  "name": "uix-host",
+  "name": "uix-guest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@adobe/uix-core": "file:.yalc/@adobe/uix-core",
-    "@adobe/uix-guest": "file:.yalc/@adobe/uix-guest",
-    "@adobe/uix-host": "file:.yalc/@adobe/uix-host",
-    "@adobe/uix-host-react": "file:.yalc/@adobe/uix-host-react",
+    "@adobe/react-spectrum": "^3.4.0",
+    "@adobe/uix-guest-react": "file:.yalc/@adobe/uix-guest-react",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -16,11 +14,12 @@
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3001 BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
